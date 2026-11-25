@@ -1,0 +1,15 @@
+// atividade
+
+let nomes=["Oliver", "Murilo", "Gustavo", "Victor", "Rayssa"]
+console.log(nomes);
+nomes.push("Maria")
+console.log(nomes);
+nomes.unshift("Jp")
+console.log(nomes);
+nomes.push("Paulo", "Guto")
+console.log(nomes);
+console.log(nomes[4]);
+let PrimeiroNome=nomes.shift()
+console.log(PrimeiroNome);
+
+
